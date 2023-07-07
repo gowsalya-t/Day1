@@ -1,0 +1,277 @@
+#header {
+    background-color: tomato;
+    width: 100%;
+    height: 60px;
+    /* display: flex; */
+    /* justify-content: space-around; */
+}
+  
+#icon {
+    float: left;
+}
+
+h1 {
+    color: white;
+}
+  
+#social {
+    float: right;
+}
+  
+.fa-brands {
+    font-size: 50px;
+    color: #192f60;
+}
+  
+#search {
+    /* width: 100%;
+    height: 500px; */
+    width: 1366px;
+    height: 480px;
+    background-image: url(../images/loginpage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* filter: blur(1px); */
+    /* backdrop-filter: blur(2px); */
+}
+
+#logo{
+    color: red;
+    font-size: 50px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.logo-span{
+    background-color: white;
+    border-radius: 50%;
+    padding: 15px 35px;
+    position: absolute;
+    left: 45%;
+    top: 15%;
+}
+
+#heading{
+    color: white;
+    font-size: 35px;
+    font-weight: 500;
+    position: absolute;
+    /* font-family: poppins; */
+    font: normal normal 600 36px/55px Poppins;
+    top: 35%;
+    left: 28%;
+}
+
+.dropdown{
+    top: 65%;
+    left: 15%;
+}
+
+.search-city{
+    top: 65%;
+    left: 20%;
+    position: relative;
+}
+
+#quick-search{
+    color: #192F60;
+    font: normal normal bold 28px/40px Poppins;
+    top: 95%;
+    position: relative;
+    left: 113px;
+    width: 239px;
+    height: 43px;
+}
+
+#meal-type{
+    color: #8C96AB;
+    font: normal normal 15px/10px Poppins;
+    top: 102%;
+    position: relative;
+    letter-spacing: 0px;
+    left: 113px;
+    width: 239px;
+    height: 43px;
+}
+
+.box-breakfast{
+    position: absolute;
+    top: 95%;
+    left: 9%;
+    width: 290px;
+    height: 125px;  
+    background-repeat: no-repeat  ; 
+    background-size: cover;
+    box-shadow: 0px 3px 10px #00000029;
+    opacity: 1;
+}
+
+#title1{
+    left: 60%;
+    bottom: 105px;
+    font: normal normal 700 15px/25px Poppins;
+    color: #192F60;
+    position:relative;
+}
+
+#details1{
+    left: 40%;
+    color: #8C96AB;
+    position: relative;
+    bottom: 115px;
+    word-wrap: break-word;
+    font: normal normal normal 14px/21px Poppins;
+}
+
+img{  
+    position: relative;
+    height: 100%;
+    width: 55%;
+    padding:10px;  
+}  
+
+.box-lunch{
+    position: absolute;
+    top: 95%;
+    left: 40%;
+    width: 290px;
+    height: 125px;  
+    background-repeat: no-repeat  ; 
+    background-size: cover;
+    box-shadow: 0px 3px 10px #00000029;
+    opacity: 1;
+}
+
+#title2{
+    left: 60%;
+    bottom: 105px;
+    font: normal normal 700 15px/25px Poppins;
+    color: #192F60;
+    position:relative;
+}
+
+#details2{
+    left: 40%;
+    color: #8C96AB;
+    position: relative;
+    bottom: 115px;
+    word-wrap: break-word;
+    font: normal normal normal 14px/21px Poppins;
+}
+
+
+.box-snacks{
+  position: absolute;
+  top: 95%;
+  left: 70%;
+  width: 290px;
+  height: 125px;  
+  background-repeat: no-repeat  ; 
+  background-size: cover;
+  box-shadow: 0px 3px 10px #00000029;
+  opacity: 1;
+}
+
+#title3{
+  left: 60%;
+  bottom: 105px;
+  font: normal normal 700 15px/25px Poppins;
+  color: #192F60;
+  position:relative;
+}
+
+#details3{
+  left: 40%;
+  color: #8C96AB;
+  position: relative;
+  bottom: 115px;
+  word-wrap: break-word;
+  font: normal normal normal 14px/21px Poppins;
+}
+
+.box-dinner{
+  position: absolute;
+  top: 120%;
+  left: 9%;
+  width: 290px;
+  height: 125px;  
+  background-repeat: no-repeat  ; 
+  background-size: cover;
+  box-shadow: 0px 3px 10px #00000029;
+  opacity: 1;
+}
+
+#title4{
+  left: 60%;
+  bottom: 105px;
+  font: normal normal 700 15px/25px Poppins;
+  color: #192F60;
+  position:relative;
+}
+
+#details4{
+  left: 40%;
+  color: #8C96AB;
+  position: relative;
+  bottom: 115px;
+  word-wrap: break-word;
+  font: normal normal normal 14px/21px Poppins;
+}
+
+.box-drinks{
+  position: absolute;
+  top: 120%;
+  left: 40%;
+  width: 290px;
+  height: 125px;  
+  background-repeat: no-repeat  ; 
+  background-size: cover;
+  box-shadow: 0px 3px 10px #00000029;
+  opacity: 1;
+}
+
+#title5{
+  left: 60%;
+  bottom: 105px;
+  font: normal normal 700 15px/25px Poppins;
+  color: #192F60;
+  position:relative;
+}
+
+#details5{
+  left: 40%;
+  color: #8C96AB;
+  position: relative;
+  bottom: 115px;
+  word-wrap: break-word;
+  font: normal normal normal 14px/21px Poppins;
+}
+
+.box-nightlife{
+  position: absolute;
+  top: 120%;
+  left: 70%;
+  width: 290px;
+  height: 125px;  
+  background-repeat: no-repeat  ; 
+  background-size: cover;
+  box-shadow: 0px 3px 10px #00000029;
+  opacity: 1;
+}
+
+#title6{
+  left: 60%;
+  bottom: 105px;
+  font: normal normal 700 15px/25px Poppins;
+  color: #192F60;
+  position:relative;
+}
+
+#details6{
+  left: 40%;
+  color: #8C96AB;
+  position: relative;
+  bottom: 115px;
+  word-wrap: break-word;
+  font: normal normal normal 14px/21px Poppins;
+}
